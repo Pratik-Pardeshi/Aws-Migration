@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+.products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.product {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+.product img {
+    max-width: 100%;
+}
